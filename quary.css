@@ -1,0 +1,37 @@
+/* mobile */
+@media (min-height:300px) and (max-height:800px) {
+    .nav_main {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .btn a {
+        padding: 8px 20px;
+    }
+
+    .btn select {
+        padding-right: 5px;
+    }
+
+    .content-box h1{
+        width: 350px;
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    .content-box span{
+        padding: 15px 0px;
+        font-size: 16px;
+        font-weight: 400
+    }
+
+}
